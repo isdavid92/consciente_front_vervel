@@ -40,6 +40,7 @@ const Comentarios = () => {
 
     useEffect(() => {
         if (comentariosGlobal) {
+            
             setComentarios(comentariosGlobal);
             setNombre(nombreGlobal);
         }
