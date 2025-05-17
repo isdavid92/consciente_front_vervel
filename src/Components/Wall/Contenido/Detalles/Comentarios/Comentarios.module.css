@@ -1,0 +1,72 @@
+.Comentarios {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 186, 174);
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    padding-bottom: 12vh;
+}
+
+.atras {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    height: 3vh;
+    cursor: pointer;
+}
+
+.titulo {
+    margin: 3vh auto;
+    color: rgb(96, 91, 76);
+}
+
+.Comentario {
+    display: flex;
+    width: 90%;
+    margin: 2vh auto;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: rgb(241, 237, 226);
+}
+
+.usuario {
+    color: rgb(96, 91, 76);
+    margin: 1vh auto 1vh 4vw;
+    font-size: 2vh;
+}
+
+.comentario {
+    color: rgb(96, 91, 76);
+    margin: 0 auto 1vh 8vw;
+    font-size: 2vh;
+}
+
+.inputComentario {
+    position: fixed;
+    bottom: 3%;
+    left: 1%;
+    right: 1%;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    align-items:center;
+    justify-content: end;
+}
+
+.input {
+    font-size: 2vh;
+    background-color: rgb(241, 237, 226);
+    border: 4px solid rgb(192, 186, 174);
+    color: rgb(96, 91, 76);
+    padding: 1vh 13vw 4vh 3vw;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.enviar {
+    position: absolute;
+    margin-right: 3vw;
+    height: 4vh;
+    cursor: pointer;
+}

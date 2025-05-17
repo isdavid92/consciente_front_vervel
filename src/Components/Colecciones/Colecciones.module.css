@@ -1,0 +1,83 @@
+.Colecciones {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 237, 226);
+    min-height: 90vh;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.head {
+    display: flex;
+    height: 6vh;
+    background-color: rgb(96, 91, 76);
+    margin: 0;
+}
+
+.h4Head {
+    color: rgb(241, 237, 226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto 0 auto 5%;
+}
+
+.imgHead {
+    height: 80%;
+    margin: auto 5% auto auto;
+}
+
+.titulo {
+    color: rgb(96, 91, 76);
+    margin: 2vh auto;
+}
+
+.colecciones {
+    width: 85%;
+    display: flex;
+    margin: 2vh auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.coleccion {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: auto 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.imgColeccion {
+    width: 100%;
+}
+
+.h4Coleccion {
+    color: rgb(96, 91, 76);
+    font-weight: normal;
+    margin: 1vh auto 3vh auto;
+}
+
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 900px) {
+    .h4Head {
+        margin: auto auto auto 15%;
+    }
+
+    .imgHead {
+        margin: auto 15% auto auto;
+    }
+
+    .colecciones {
+        width: 40%;
+    }
+}

@@ -1,0 +1,235 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bienvenida {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h3Bienvenida {
+    color: rgb(96, 91, 76);
+    font-family: "Forum", sans-serif;
+    margin: auto;
+    margin-bottom: 7%;
+}
+
+.imgBienvenida {
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.IniciaSesion {
+    height: 65%;
+    background-color: rgb(96, 91, 76);
+    border-radius: 6% 6% 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.iniciaSesion {
+    margin: 0 auto;
+    height: 15%;
+    display: flex;
+    width: 80%;
+}
+
+.h3IniciaSesion {
+    color: rgb(241, 237, 226);
+    font-family: "Forum", sans-serif;
+    font-size: 5vh;
+    font-weight: normal;
+    margin: auto auto auto 0;
+}
+
+.imgIniciaSesion {
+    height: 60%;
+    margin: auto 5% auto auto;
+    margin-top: 5%;
+}
+
+.divCorreo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    height: 16%;
+    align-items: center;
+}
+
+.h5IniciaSesion {
+    color: rgb(241, 237, 226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto auto auto 4%;
+}
+
+.divInput {
+    display: flex;
+    width: 90%;
+    height: 55%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 89%;
+    height: 100%;
+    padding: 0 5%;
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    background-color: rgb(241, 237, 226);
+    border-radius: 20px;
+    border: none;
+}
+
+.divPassword {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    height: 16%;
+    align-items: center;
+}
+
+.ver {
+    height: 1.5vh;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    opacity: 60%;
+    display: none;
+}
+
+.nover {
+    height: 1.5vh;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    opacity: 60%;
+}
+
+.divEspacio {
+    width: 90%;
+    margin: 0 auto;
+    height: 16%;
+}
+
+.boton {
+    width: 25%;
+    height: 5%;
+    margin: 5% auto;
+    border: 2px solid rgb(241, 237, 226);
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+}
+
+.boton:active {
+    outline: none;
+    background-color: rgb(241, 237, 226);
+}
+
+.h5Boton {
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    color: rgb(241, 237, 226);
+    margin: auto;
+    cursor: pointer;
+}
+
+.h5Boton:active {
+    color: rgb(96, 91, 76);
+    outline: none;
+}
+
+.login {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 15%;
+}
+
+.aRegistryL {
+    text-decoration: none;
+    color: rgb(241, 237, 226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto auto auto 0;
+}
+
+.aRegistryL:active {
+    background-color: rgb(241, 237, 226);
+    color: rgb(96, 91, 76);
+    outline: none;
+}
+
+.aRegistryR {
+    text-decoration: none;
+    color: rgb(241, 237, 226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto 0 auto auto;
+}
+
+.aRegistryR:active {
+    background-color: rgb(241, 237, 226);
+    color: rgb(96, 91, 76);
+    outline: none;
+}
+
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 800px) {
+    .h3Bienvenida {
+        margin: auto;
+        font-size: 4vh;
+    }
+
+    .imgBienvenida {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .Login {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .h3Bienvenida {
+        margin: auto;
+        font-size: 5vh;
+    }
+
+    .imgBienvenida {
+        width: 60%;
+        margin: auto;
+    }
+
+    .iniciaSesion {
+        width: 60%;
+    }
+
+    .divCorreo {
+        width: 60%;
+    }
+
+    .divPassword {
+        width: 60%;
+    }
+}

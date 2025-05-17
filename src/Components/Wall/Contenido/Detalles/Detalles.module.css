@@ -1,0 +1,126 @@
+.Detalles {
+    display: flex;
+    flex-direction: column;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0.5vh auto 0 auto;
+}
+
+.titulo {
+    margin: 0 auto 0 0;
+    color: rgb(96,91,76);
+    text-align: start;
+}
+
+.subtitulo {
+    margin: 0 auto 0 0;
+    color: rgb(96,91,76);
+    text-align: start;
+}
+
+.tiempo {
+    margin: 0.5vh auto 0 0;
+    color: rgba(96, 91, 76, 0.637);
+}
+
+.descripcion {
+    margin: 0.5vh auto 0 0;
+    text-align: start;
+    color: rgb(96, 91, 76);
+}
+
+.leerMas {
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 2vw;
+}
+
+.link {
+    color: rgb(96, 91, 76);
+    margin: 0.5vh 0;
+}
+
+.linkDesbloquear {
+    display: flex;
+    text-decoration: none;
+    width: 85vw;
+    height:4vh;
+    margin: 2vh auto 5vh auto;
+    cursor: pointer;
+}
+
+.imgDesbloquear {
+    margin: auto 0;
+    height: 60%;
+}
+
+.h4Desbloquear {
+    font-size: 2vh;
+    margin: auto auto auto 4%;
+    color: rgb(96, 91, 76);
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDetalles {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 1vh;
+    height: 3vh;
+}
+
+.likes {
+    display: flex;
+    width: 15%;
+}
+
+.imgLikesClaro {
+    height: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.imgLikes {
+    height: 100%;
+    cursor: pointer;
+}
+
+.h4Likes {
+    margin: auto auto 0 1vw;
+    font-size: 2.8vh;
+    font-weight: normal;
+    color: rgb(96, 91, 76);
+}
+
+.comentarios {
+    display: flex;
+    margin: 0 2vw;
+    width: 15%;
+}
+
+.imgComentarios {
+    height: 100%;
+    cursor: pointer;
+}
+
+.h4Comentarios {
+    margin: auto auto 0 1vw;
+    font-size: 2.8vh;
+    font-weight: normal;
+    color: rgb(96, 91, 76);
+}

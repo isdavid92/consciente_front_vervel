@@ -1,0 +1,79 @@
+.Movimiento {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 10vh auto;
+}
+
+.Subcategoria {
+    display: flex;
+    width: 85%;
+    height: 20vh;
+    margin: 2vh auto 0 auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.movimiento {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.divTitulo {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 91, 76, 0.552);
+}
+
+.titulo {
+    margin: auto;
+    margin-bottom: 5%;
+    color: rgb(241, 237, 226);
+    font-size: 11vh;
+    font-weight: normal;
+}
+
+.subcategorias {
+    width: 85%;
+    display: flex;
+    margin: 2vh auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subcategoria {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: auto 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.imgSubcategoria {
+    width: 100%;
+}
+
+.h4Subcategoria {
+    color: rgb(96, 91, 76);
+    font-weight: normal;
+    margin: 1vh auto 3vh auto;
+}
+
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 900px) {
+    .Movimiento {
+        width: 40%;
+    }
+}

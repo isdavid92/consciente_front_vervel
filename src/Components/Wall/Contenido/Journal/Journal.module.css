@@ -1,0 +1,43 @@
+.Journal {
+    width: 100%;
+    margin: 4vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.divLibro {
+    width: 85%;
+    height: 30vh;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.journal {
+    width: 20%;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+.imgLibro {
+    margin: auto;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 900px) {
+    .Journal {
+        width: 50%;
+    }
+}

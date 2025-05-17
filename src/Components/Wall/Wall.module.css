@@ -1,0 +1,57 @@
+.Wall {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 237, 226);
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    padding-bottom: 10vh;
+    padding-top: 6vh;
+}
+
+.head {
+    display: flex;
+    height: 6vh;
+    background-color: rgb(96, 91, 76);
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.h4Head {
+    color: rgb(241, 237, 226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto auto auto 5%;
+}
+
+.imgHead {
+    height: 80%;
+    margin: auto 5% auto auto;
+}
+
+.titulo {
+    color: rgb(96, 91, 76);
+    margin: 2vh auto;
+}
+
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 900px) {
+    .h4Head {
+        margin: auto auto auto 15%;
+    }
+
+    .imgHead {
+        margin: auto 15% auto auto;
+    }
+}

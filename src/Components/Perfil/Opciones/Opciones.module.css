@@ -1,0 +1,152 @@
+.Opciones {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 237, 226);
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.atras {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    height: 3vh;
+    cursor: pointer;
+}
+
+.aleja {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 6vh auto 0 auto;
+}
+
+.titulo {
+    color: rgb(96, 91, 76);
+}
+
+.texto {
+    color: rgb(96, 91, 76);
+    font-weight: normal;
+    text-align: justify;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 6vh auto 0 auto;
+}
+
+.correo {
+    text-align: center;
+    cursor: pointer;
+    color: rgb(96, 91, 76);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 3vh;
+}
+
+.cambiarContraseña {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 6vh auto 0 auto;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 4vh auto 0 auto;
+}
+
+.divInput {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 2vh auto;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    font-size: 2vh;
+    padding: 1vh 2vw;
+    border: 2px solid rgb(192, 186, 174);
+    border-radius: 5px;
+}
+
+.ver {
+    height: 1.5vh;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    opacity: 60%;
+    display: none;
+}
+
+.nover {
+    height: 1.5vh;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    opacity: 60%;
+}
+
+.boton {
+    width: 45vw;
+    height: 4.5vh;
+    background-color: rgb(96, 91, 76);
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+    margin: 4vh auto;
+    cursor: pointer;
+}
+
+.boton:active {
+    outline: none;
+    background-color: rgb(241, 237, 226);
+}
+
+.h4Boton {
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    font-weight: normal;
+    color: rgb(241, 237, 226);
+    margin: auto;
+    user-select: none;
+}
+
+.h4Boton:active {
+    color: rgb(96, 91, 76);
+    outline: none;
+}
+
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 900px) {
+    .Opciones {
+        width: 40%;
+    }
+
+    .atras {
+        right: 20%;
+    }
+
+    .boton {
+        width: 45%;
+    }
+}

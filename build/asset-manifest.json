@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96fec71c.css",
+    "main.js": "/static/js/main.d9a3089d.js",
+    "static/js/488.205a92c6.chunk.js": "/static/js/488.205a92c6.chunk.js",
+    "static/media/meditaciones.png": "/static/media/meditaciones.ac4c36cb0862103aced6.png",
+    "static/media/extraMagic.png": "/static/media/extraMagic.48ca060bd49e0cfa5768.png",
+    "static/media/hipopresivos.png": "/static/media/hipopresivos.9ddf8e34489f280f456e.png",
+    "static/media/recomendaciones.png": "/static/media/recomendaciones.979eba1a18b032d6a5a6.png",
+    "static/media/fuerza.png": "/static/media/fuerza.f23dae489c05f803e41e.png",
+    "static/media/pilates.png": "/static/media/pilates.9c8f280fe9685051d583.png",
+    "static/media/alimentacion.png": "/static/media/alimentacion.d6db029bdf0d68f91e7c.png",
+    "static/media/yoga.png": "/static/media/yoga.8dc332578cad5afaec8f.png",
+    "static/media/otros.png": "/static/media/otros.62845bf4b0e0183759df.png",
+    "static/media/movimiento.png": "/static/media/movimiento.66fdbf8d6709e863db1c.png",
+    "static/media/habitos.png": "/static/media/habitos.772345b67841fc5beec3.png",
+    "static/media/logoBlanco.png": "/static/media/logoBlanco.21ff1fa09752347af9cc.png",
+    "static/media/logoOscuro.png": "/static/media/logoOscuro.50aafd63bf3da162c6b6.png",
+    "static/media/conscienteOscuro.png": "/static/media/conscienteOscuro.366b68e004f581b08f26.png",
+    "static/media/journal.png": "/static/media/journal.71a0f2b7d20b856f2cee.png",
+    "static/media/flecha.png": "/static/media/flecha.873799492a45c20fea57.png",
+    "static/media/perfilAleja.png": "/static/media/perfilAleja.884fc570279ca283c063.png",
+    "index.html": "/index.html",
+    "main.96fec71c.css.map": "/static/css/main.96fec71c.css.map",
+    "main.d9a3089d.js.map": "/static/js/main.d9a3089d.js.map",
+    "488.205a92c6.chunk.js.map": "/static/js/488.205a92c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96fec71c.css",
+    "static/js/main.d9a3089d.js"
+  ]
+}

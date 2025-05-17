@@ -1,0 +1,193 @@
+.Registry {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(241,237,226);
+}
+
+.bienvenida {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBienvenida {
+    width: 80%;
+    margin: auto;
+}
+
+.Registrate {
+    height: 70%;
+    background-color: rgb(96,91,76);
+    border-radius: 6% 6% 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.registrate {
+    margin: 0 auto;
+    height: 15%;
+    display: flex;
+    width: 80%;
+}
+
+.h3Registrate {
+    color: rgb(241,237,226);
+    font-family: "Forum", sans-serif;
+    font-size: 5vh;
+    font-weight: normal;
+    margin: auto auto auto 0;
+}
+
+.imgRegistrate {
+    height: 60%;
+    margin: auto 5% auto auto;
+    margin-top: 5%;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    height: 16%;
+    align-items: center;
+}
+
+.h5Registro {
+    color: rgb(241,237,226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto auto auto 4%;
+}
+
+.divInput {
+    display: flex;
+    width: 90%;
+    height: 55%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 89%;
+    height: 100%;
+    padding: 0 5%;
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    background-color: rgb(241,237,226);
+    border-radius: 20px;
+    border: none;
+}
+
+.ver {
+    height: 1.5vh;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    opacity: 60%;
+    display: none;
+}
+
+.nover {
+    height: 1.5vh;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    opacity: 60%;
+}
+
+.boton {
+    width: 25%;
+    height: 5%;
+    margin: 5% auto;
+    border: 2px solid rgb(241,237,226);
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.boton:active {
+    outline: none;
+    background-color: rgb(241,237,226);
+}
+
+.h5Boton {
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    color: rgb(241,237,226);
+    margin: auto;
+}
+
+.h5Boton:active {
+    color: rgb(96,91,76);
+    outline: none;
+}
+
+.login {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 15%;
+}
+
+.aLoginL {
+    text-decoration: none;
+    color: rgb(241,237,226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto auto auto 0;
+}
+
+.aLoginL:active {
+    background-color: rgb(241,237,226);
+    color: rgb(96,91,76);
+    outline: none;
+}
+
+.aLoginR {
+    text-decoration: none;
+    color: rgb(241,237,226);
+    font-family: "Forum", sans-serif;
+    font-size: 2vh;
+    margin: auto 0 auto auto;
+}
+
+.aLoginR:active {
+    background-color: rgb(241,237,226);
+    color: rgb(96,91,76);
+    outline: none;
+}
+
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+
+
+@media (min-width: 900px) {
+    .Registry {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .imgBienvenida {
+        width: 60%;
+    }
+
+    .registrate {
+        width: 60%;
+    }
+
+    .Input {
+        width: 60%;
+    }
+}

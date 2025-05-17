@@ -1,0 +1,132 @@
+.Video {
+    width: 100%;
+    margin: 4vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.divVideo {
+    width: 85%;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.mascaraVideo {
+    margin-bottom: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+}
+
+.contDuracion {
+    background-color: rgba(96, 91, 76, 0.4);
+    margin: auto auto 4% 3%;
+    width: max-content;
+    border-radius: 1vw;
+}
+
+.camara {
+    height: 1.3vh;
+    margin: auto;
+    margin-right: 1.5vw;
+}
+
+.duracion {
+    color: rgb(241, 237, 226);
+    margin: auto;
+    font-size: 2vh;
+    font-weight: normal;
+    padding: 0.4vh 1.5vw 0.2vh 1.5vw;
+}
+
+.contPlay {
+    background-color: rgb(241, 237, 226);
+    margin: auto 3% 4% auto;
+    width: max-content;
+    border-radius: 4vw;
+}
+
+.play {
+    color: rgb(96, 91, 76);
+    margin: auto;
+    font-size: 2vh;
+    padding: 0.5vh 2vw;
+}
+
+.libroDemo {
+    height: 80%;
+    width: 85vw;
+    margin: auto;
+}
+
+.divContAudio {
+    height: 20vh;
+    width: 100vw;
+    margin: 2vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.divAudio {
+    height: 40%;
+    width: 85vw;
+    display: flex;
+    margin: auto;
+}
+
+.divImgAudio {
+    background-color: rgb(96, 91, 76);
+    height: 7vh;
+    width: 8vh;
+    border-radius: 8px;
+    display: flex;
+    margin: auto 0 auto auto;
+}
+
+.imgAudio {
+    height: 60%;
+    margin: auto;
+}
+
+.audioDemo {
+    margin: auto auto auto 0;
+}
+
+.divTituloAudio {
+    height: 30%;
+    display: flex;
+}
+
+.tituloAudio {
+    font-family: "Forum", sans-serif;
+    font-size: 2.2vh;
+    margin: auto auto auto 8%;
+}
+
+.aDesbAudio {
+    display: flex;
+    height: 30%;
+    text-decoration: none;
+}
+
+
+
+
+/* ! RESPONSIVE */
+
+
+
+
+@media (min-width: 900px) {
+    .Video {
+        width: 50%;
+    }
+}
