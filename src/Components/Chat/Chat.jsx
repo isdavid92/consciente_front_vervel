@@ -10,7 +10,9 @@ import { io } from "socket.io-client";
 const Chat = () => {
 
     // const URL = "http://localhost:3001";
-    const URL = "https://consciente-d3bf4b26b4b3.herokuapp.com";
+    // const URL = "https://consciente-d3bf4b26b4b3.herokuapp.com";
+    const URL = "https://api.conscientebyalejam.com";
+
 
     const socket = io(URL, { transports: ['websocket'] });
     const usuarioGlobal = useSelector(state => state.data.usuario);
