@@ -22,7 +22,7 @@ const reducer = (state = inicialState, { type, payload }) => {
                 usuario: payload.usuario,
                 comentario: payload.comentario
             };
-            const [contenido] = state.data.contenido.filter(cont => cont.id === payload.id);
+            const [contenido] = state.data.contenido.filter(cont => cont.id === Number(payload.id));
             contenido.comentarios = [...contenido.comentarios, newComment];
             return {
                 ...state,

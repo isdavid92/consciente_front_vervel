@@ -61,9 +61,11 @@ const Wall = () => {
 
         });
         videos.forEach((video) => {
-            video.pause();
-            video.currentTime = 0;
-            video.controls = false;
+            if (Number(video.id) !== id) {
+                video.pause();
+                video.currentTime = 0;
+                video.controls = false;
+            }
         });
     };
 

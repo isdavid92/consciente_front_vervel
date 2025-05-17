@@ -40,12 +40,11 @@ const Comentarios = () => {
 
     useEffect(() => {
         if (comentariosGlobal) {
-            
             setComentarios(comentariosGlobal);
             setNombre(nombreGlobal);
         }
-    }, [comentariosGlobal,nombreGlobal]);
-    
+    }, [comentariosGlobal, nombreGlobal]);
+
     return (
         <div className={style.Comentarios}>
 
